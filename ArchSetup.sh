@@ -15,7 +15,7 @@ sudo rm -R screenFetch
 echo "Lets give zsh a makeover!"
 sh -c "$(curl -fsSL https://raw.githubusercontent.com/robbyrussell/oh-my-zsh/master/tools/install.sh)" 
 
-cd
+cd ~/
 echo "screenfetch -c 3" >> .zshrc
 echo "alias nano="sudo nano" >> .zshrc
 echo "alias update="packer -Syyu" >> .zshrc
@@ -31,11 +31,11 @@ echo "alias reboot="sudo reboot" >> .zshrc
 echo "alias poweroff="sudo poweroff" >> .zshrc
 echo "alias banner="screenfetch -c 3" >> .zshrc
 
-
+cd ~/InstallFiles
 ## Install Packer Dependencies:
 sudo pacman -S expac jshon
 
-## Download and Install Packer:
+## Download and Install Packer (this may fail it's a work in progress):
 mkdir packer
 cd packer
 sudo wget https://aur.archlinux.org/cgit/aur.git/plain/PKGBUILD?h=packer
