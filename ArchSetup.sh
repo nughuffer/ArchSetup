@@ -17,19 +17,19 @@ sh -c "$(curl -fsSL https://raw.githubusercontent.com/robbyrussell/oh-my-zsh/mas
 
 cd ~/
 echo "screenfetch -c 3" >> .zshrc
-echo "alias nano="sudo nano" >> .zshrc
-echo "alias update="packer -Syyu" >> .zshrc
-echo "alias aurin="packer -S" >> .zshrc
-echo "alias aurs="packer -Ss" >> .zshrc
-echo "alias remove="sudo pacman -Rdd" >> .zshrc
-echo "alias status="sudo systemctl status" >> .zshrc
-echo "alias enable="sudo systemctl enable" >> .zshrc
-echo "alias disable="sudo systemctl disable" >> .zshrc
-echo "alias restart="sudo systemctl restart" >> .zshrc
-echo "alias failed="sudo systemctl --failed" >> .zshrc
-echo "alias reboot="sudo reboot" >> .zshrc
-echo "alias poweroff="sudo poweroff" >> .zshrc
-echo "alias banner="screenfetch -c 3" >> .zshrc
+echo 'alias nano="sudo nano"' >> .zshrc
+echo 'alias update="packer -Syyu"' >> .zshrc
+echo 'alias aurin="packer -S"' >> .zshrc
+echo 'alias aurs="packer -Ss"' >> .zshrc
+echo 'alias remove="sudo pacman -Rdd"' >> .zshrc
+echo 'alias status="sudo systemctl status"' >> .zshrc
+echo 'alias enable="sudo systemctl enable"' >> .zshrc
+echo 'alias disable="sudo systemctl disable"' >> .zshrc
+echo 'alias restart="sudo systemctl restart"' >> .zshrc
+echo 'alias failed="sudo systemctl --failed"' >> .zshrc
+echo 'alias reboot="sudo reboot"' >> .zshrc
+echo 'alias poweroff="sudo poweroff"' >> .zshrc
+echo 'alias banner="screenfetch -c 3"' >> .zshrc
 
 cd ~/InstallFiles
 ## Install Packer Dependencies:
