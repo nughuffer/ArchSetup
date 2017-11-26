@@ -31,9 +31,10 @@ echo 'alias reboot="sudo reboot"' >> .zshrc
 echo 'alias poweroff="sudo poweroff"' >> .zshrc
 echo 'alias banner="screenfetch -c 3"' >> .zshrc
 
-cd ~/InstallFiles
 ## Install Packer Dependencies:
 sudo pacman -S expac jshon
+
+cd ~/InstallFiles
 
 ## Download and Install Packer (this may fail it's a work in progress):
 mkdir ~/InstallFiles/packer
