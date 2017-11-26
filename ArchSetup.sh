@@ -36,8 +36,8 @@ cd ~/InstallFiles
 sudo pacman -S expac jshon
 
 ## Download and Install Packer (this may fail it's a work in progress):
-mkdir packer
-cd packer
+mkdir ~/InstallFiles/packer
+cd ~/InstallFiles/packer
 sudo wget https://aur.archlinux.org/cgit/aur.git/plain/PKGBUILD?h=packer
 mv PKGBUILD?h=packer PKGBUILD
 makepkg
@@ -46,6 +46,4 @@ sudo pacman -U packer-*.pkg.tar.xz
 cd
 echo "Cleaning Up Installation..."
 sudo rm -R ~/InstallFiles
-sudo rm -R ~/Packer
-sudo rm -R ~/packer
 echo "Done!"
