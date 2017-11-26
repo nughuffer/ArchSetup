@@ -45,5 +45,7 @@ makepkg
 sudo pacman -U packer-*.pkg.tar.xz
 cd
 echo "Cleaning Up Installation..."
-sudo rm -R InstallFiles
+sudo rm -R ~/InstallFiles
+sudo rm -R ~/Packer
+sudo rm -R ~/packer
 echo "Done!"
