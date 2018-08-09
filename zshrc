@@ -38,9 +38,9 @@ source $ZSH/oh-my-zsh.sh
 screenfetch -c 3 
 
 alias nano="sudo nano"
-alias update="yaourt -Syyu"
-alias aurin="yaourt -S"
-alias aurs="yaourt -Ss"
+alias update="yay -Syyu"
+alias aurin="yay -S"
+alias aurs="yay -Ss"
 alias remove="sudo pacman -Rdd"
 alias status="sudo systemctl status"
 alias enable="sudo systemctl enable"
