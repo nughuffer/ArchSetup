@@ -35,7 +35,7 @@ source $ZSH/oh-my-zsh.sh
 # ssh
 # export SSH_KEY_PATH="~/.ssh/rsa_id"
 
-screenfetch -c 3 
+neofetch 
 
 alias nano="sudo nano"
 alias update="yay -Syyu"
@@ -50,4 +50,4 @@ alias failed="sudo systemctl --failed"
 alias stopd="sudo systemctl stop"
 alias reboot="sudo reboot" 
 alias poweroff="sudo poweroff"
-alias banner="screenfetch -c 3"
+alias banner="neofetch"
